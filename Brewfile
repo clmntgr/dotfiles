@@ -1,0 +1,18 @@
+tap 'homebrew/bundle'
+tap 'homebrew/cask'
+tap 'homebrew/cask-fonts'
+tap 'bibendi/dip'
+
+brew 'git'
+brew 'bash'
+brew 'starship'
+brew 'dip'
+
+cask '1password'
+cask '1password-cli'
+cask 'spotify'
+cask 'notion'
+cask 'keepingyouawake'
+cask 'docker'
+cask 'hyper'
+cask 'font-jetbrains-mono'

@@ -1,0 +1,6 @@
+Host *
+  ForwardAgent yes
+  ServerAliveInterval 120
+  AddKeysToAgent yes
+  UseKeychain yes
+

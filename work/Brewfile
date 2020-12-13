@@ -1,0 +1,4 @@
+brew 'stripe/stripe-cli/stripe'
+
+cask 'figma'
+cask 'slack'
