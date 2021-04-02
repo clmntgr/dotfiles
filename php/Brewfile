@@ -1,4 +1,0 @@
-brew 'php'
-brew 'composer'
-brew 'node'
-brew 'yarn'
