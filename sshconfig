@@ -4,3 +4,19 @@ Host *
   AddKeysToAgent yes
   UseKeychain yes
 
+Host wisphelp
+  User root
+  HostName 104.236.216.83
+  IdentityFile ~/.ssh/id_ed25519
+
+Host wispblog
+  User root
+  HostName 104.236.193.74
+  IdentityFile ~/.ssh/id_ed25519
+
+Host dev
+  User root
+  HostName 206.189.109.246
+  IdentityFile ~/.ssh/id_ed25519
+  LocalForward localhost:8000 localhost:8000
+  LocalForward localhost:5000 localhost:5000
